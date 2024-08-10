@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Guardian Crosswords Shortcuts
 // @namespace    http://tampermonkey.net/
-// @version      2024-08-02
+// @version      2024-08-10
 // @description  Adds keyboard shortcuts for the clear/check/reveal buttons on the Guardian crosswords.
 // @author       Elgan ROLLAND
 // @match        https://www.theguardian.com/crosswords/quick/*
@@ -10,10 +10,6 @@
 // ==/UserScript==
 
 (function() {
-
-    // Removes the comments' footer (because of a performance issue).
-    let comments = document.querySelector('.content-footer.content-footer--pillar-lifestyle');
-    comments?.remove();
 
     let keyMap = {};
 
