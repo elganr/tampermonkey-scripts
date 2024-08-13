@@ -4,7 +4,7 @@
 // @version      2024-08-10
 // @description  Adds keyboard shortcuts for the clear/check/reveal buttons on the Guardian crosswords.
 // @author       Elgan ROLLAND
-// @match        https://www.theguardian.com/crosswords/quick/*
+// @match        https://www.theguardian.com/crosswords/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=theguardian.com
 // @grant        none
 // ==/UserScript==
